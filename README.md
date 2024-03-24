@@ -5,13 +5,21 @@ A Repository to house various MTG commander decks to download and run in Tableto
 
 ## Installation
 
-Download the decks you wish to play with and navigate to the following:
+Clone this project into your Tabletop Simulator "Saved Objects" folder:
+
+**On Windows:**
 
 ```
-  C:\Users\{Profile}\Documents\My Games\Tabletop Simulator\Saves\Saved Objects\
+git clone https://github.com/mhealy-dev/mtg-decks.git "%USERPROFILE%\Documents\My Games\Tabletop Simulator\Saves\Saved Objects\mtg-decks"
 ```
-    
-Either save here or create an additional folder to house your decks. Once saved you can load the deck into whichever Tabletop board you use.
+
+**On Linux:**
+
+```
+git clone https://github.com/mhealy-dev/mtg-decks.git ~/.local/share/Tabletop\ Simulator/Saves/Saved\ Objects/mtg-decks
+```
+
+You can use the above commands or manually download whichever `.json` deck files you'd like from this repo and save them to your "Saved Objects" folder. The path to that folder can be found for your OS in either of the above two commands.
 
 ## Frogtown.me
 
@@ -21,4 +29,4 @@ Take any bulk export decklist and navigate to frogtown.me
 
 Once there you can bulk import, select card versions, name your deck and download.
 
-Follow the Installation steps to move the deck into your saved data within Tabletop Simulator.
+Follow the above installation steps to move the deck into your saved data within Tabletop Simulator.
