@@ -1,7 +1,7 @@
 
-# MTG Commander Decks 🎴
+# MTG Decks 🎴
 
-A Repository to house various MTG commander decks to download and run in Tabletop Simulator.
+A Repository to house various MTG decks to download and run in Tabletop Simulator. Each deck is housed in it's formats folder(i.e., commander, modern, standard)
 
 ## Installation
 
